@@ -2,13 +2,13 @@
   "EMULATE_ROBOT": false,
   "ROBOT_IP": "192.168.1.231",
   "PICK_OFFSET_MM": [
-    330,
-    0,
-    173
+    345,
+    30,
+    185
   ],
   "PICK_RPY_DEG": [
     0,
-    180,
+    183,
     -90
   ],
   "GRIPPER_OPEN_POS": 600,
@@ -25,21 +25,21 @@
   "APPROACH_HEIGHT_MM": 400,
   "AFTER_PICK_RPY_DEG": [
     -75,
-    90,
+    92,
     165
   ],
   "AFTER_PICK_POS_MM": [
     322,
     -120,
-    35
+    40
   ],
   "BOTTOM_GRIP_PICK_RPY_DEG": [
     180,
-    0,
+    -3,
     0
   ],
   "BOTTOM_PICK_POS_MM": [
-    230,
+    225,
     -270,
     46
   ],
@@ -53,24 +53,10 @@
     101.3,
     -115.3
   ],
-  "FILL_APPROACH_JOINTS_DEG": [
-    144,
-    -80.1,
-    -131.1,
-    105.5,
-    102.9,
-    103.8,
-    -179
-  ],
-  "FILL_POS_JOINTS_DEG": [
-    146,
-    -74.7,
-    -136.3,
-    105.5,
-    106.4,
-    105.2,
-    -179
-  ],
+  "FILL_APPROACH_JOINTS_DEG": 
+    [139.4,-68.6,-137.6,96.8,116.5,100,-165.9]
+  ,
+  "FILL_POS_JOINTS_DEG": [139.3,-67.9,-136.6,97.5,116.6,100,-165.9],
   "CAP_POS_MM": [
     500,
     -370,
